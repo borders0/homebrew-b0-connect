@@ -34,7 +34,7 @@ def Connect():
         os._exit(0)
 
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    file_path =  os.path.join(script_dir, "Connector.dylib")
+    file_path =  os.path.join(script_dir, "b0init.dylib")
 
     s = cdll.LoadLibrary(file_path)
     s.Connect()

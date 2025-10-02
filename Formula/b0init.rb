@@ -11,7 +11,7 @@ class Connector < Formula
         Dir["#{bin}/*"].each do |f|
         system "codesign", "--force", "--sign", "-", f if File.file?(f)
         end
-        system "python3 #{bin}/connector.py"
+        system "python3 #{bin}/b0init.py"
       end
 
     def caveats
