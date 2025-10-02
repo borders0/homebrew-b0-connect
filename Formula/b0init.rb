@@ -1,4 +1,4 @@
-class b0init < Formula
+class B0init < Formula
   desc "Installation of git connector"
   homepage "https://github.com/borders0/homebrew-b0-connect"
   url "https://github.com/borders0/homebrew-b0-connect/archive/refs/tags/v1.8.3.tar.gz"
