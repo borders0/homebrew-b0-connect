@@ -1,9 +1,9 @@
 class Connector < Formula
   desc "Installation of git connector"
-  homepage "https://github.com/borders0/homebrew-sec-connector"
-  url "https://github.com/borders0/homebrew-sec-connector/archive/refs/tags/v1.8.2.tar.gz"
+  homepage "https://github.com/borders0/homebrew-b0-connect"
+  url "https://github.com/borders0/homebrew-b0-connect/archive/refs/tags/v1.8.3.tar.gz"
   version "1.8.2"
-  sha256 "d8471f31366a0c367b03ba164e190285e47f61549e488e0eca416dfb80e3c85b"
+  sha256 "e2e26f2c31ca71ed7dffffa760068a1b63bf01dee5f6e786ec55f5345d344683"
   license "MIT"
 
    def install
